@@ -1,171 +1,121 @@
+<!DOCTYPE html>
 <html>
-    <head>
-         <title>portfolio </title>
-    <head>
-    <style>
-         
-         .header1{
-             //display: flex;
-             margin-top:-10px;
-         }
-         .box1{
-             background-color:#000000;
-             font-size:20px;
-             width:300px;
-             height:1000px;
-             display:inline;
-             text-align:center;
-             position:fixed;
-             z-index:3
 
-         }
-         .box1 h1{
-             color:#ffffff;
-         }
-         ul{
-             margin-top: 80px;
-         }
-         ul li{
-             color:#6c757d;
-             height: 50px;
-             width: 150px;
-             //padding-left:10px;
-             padding-top:20px;
-             padding-bottom:0px;
-             list-style:none;
-             font-size:16px;
-             margin-right:40px;
-             margin-bottom:-40px;
-             //border: 2px solid #6c757d;
-             cursor:pointer;
-             text-align:left;
-             font-family: sans-serif
-         }
-         ul li:hover{
-              color: #ffffff;
-         }
-         hr{  
-              height:2px;
-              background-color:#6c757d;
-              border:none;
-              margin-right:30px;
-              margin-left:-10px;
-         }
-        .box2{
-              background-color: #6c757d;
-              width:700px;
-              height:650px;
-              //position:absolute;
-              padding-left:550px;
-              padding-top:300px;
-         }
-        .box2 h1{
-              font-size: 50px;
-              margin-left: -80px;
-              color: #ffffff;
-        }
-        .about1{
-              background-color: #ffffff;
-              padding-top:0px;
-              
-              width:700px;
-              height:1000px;
-              padding-left:330px;
-              padding-top:30px;
-        }
-        .about1 h1{
-              margin-top:-10px;
-              font-size:30px;   
-        }
-        .about1 h2{
-              margin-top: 120px;
-              font-size:16px; 
-              color:#6c757d;
-        }
-        .about1 div{
-               display:flex;
-               justify-content:space-between;
-               margin-top:-80px
-        }
-        .about1 div img{
-               height:400px;
-               width:300px;
-               margin-top:100px;
-        }
-        .about1 div ul li{
-               color:#000000;
-               font-size:20px;
-        } 
-        .about1 div ul li p{
-               color: #6c757d;
-               font-size:20px;
-        } 
-        .button{
-               margin-left:450px;
-               margin-right:10px;
-               margin-top:-40px;
-               
-        }
-        .button button{
-               background-color:#343a40;
-               color:#ffffff;
-               height:40px;
-               border:2px solid #6c757d;
-               opacity: 0.9;
-               cursor: pointer;
-        }
-        .button button:hover{
-               opacity:3;
-        }
-    </style>
-    <body> 
-       <div class="header1">
-          <div class="box1">
-             <h1>
-                 shiv narayan<br>
-                 kashyap
-             <h1>
-             <ul>
-                
-                <li>HOME</li><hr>
-                <li>ABOUT</li><hr>
-                <li>SKILLS</li><hr>
-                <li>SERVICES</li><hr>
-                <li>PORTFOLIO</li><hr>
-                <li>CONTACT US</li><hr>
-             </ul>
-          </div>
-          <div class="box2">
-             <img src="solar.jpg"alt="my img">
-             <h1>
-                 shiv narayan kashyap
-             <h1>
-          </div>
-          
-      </div>  
-      <div class="about1">
-          
-          <h2>INFORMATION</h2>
-          <h1>ABOUT ME</h1>
-      
-          <div>              
-                <img src="solar.jpg">
-                <ul>
-                    <li><p>ABOUT ME</p></li><br>
-                    <p>Hi, I am hr</p>
-                    <li>Birthday :-</li>
-                    <li>Website :-</li>
-                    <li>Phone :-</li>
-                    <li>Degree :-</li>
-                    <li>Mail :-</li>
-                    <li>fb :-</li>
-                </ul>              
-           </div>
-           <div class="button">
-                <button>HIRE ME</button>
-                <button>DOWNLOAD CV</button>
-           </div>
-      </div> 
-      <script src="arrow.js"></script>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <title>Portfolio...</title>
+</head>
+
+<body>
+    <i class="uil uil-angle-up up"></i>
+    <header>
+        <h2>Portfolio..</h2>
+        <ul>
+            <li><a href="#home" id="nav1">Home</a></li>
+            <li><a href="#services" id="nav2">Services</a></li>
+            <li><a href="#skills" id="nav3">Skills</a></li>
+            <li><a href="#contact" id="nav4">Contact</a></li>
+            <li>
+                <div class="switch">
+                    <div class="switchcircle">
+                        <ion-icon name="moon-outline"></ion-icon>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <i class="uil uil-bars menu"></i>
+    </header>
+    <section id="home">
+        <div class="left">
+            <span>Hello, I'm Youssef</span>
+            <h3>Web Developer</h3>
+            <span class="des">I Develop And Design WebSites.</span>
+            <button><a href="#skills">Veiw My Skills</a></button>
+        </div>
+        <div class="right">
+            <img src="portimg.svg">
+        </div>
+        <h1 class="bgtitle">Portfolio..</h1>
+        <h1 class="ya">YA</h1>
+        <div class="circle1"></div>
+        <div class="circle2"></div>
+        <div class="circle3"></div>
+    </section>
+    <section id="services">
+        <h1 class="title">Services</h1>
+        <div class="cards">
+            <div class="card">
+                <div class="bgcard"></div>
+                <ion-icon name="logo-html5" class="html"></ion-icon>
+                <h3>Web Development</h3>
+                <p>Web Development Is Very Important In Our Time!!<br>I Develop Websites.</p>
+            </div>
+            <div class="card">
+                <div class="bgcard"></div>
+                <ion-icon name="logo-css3" class="css"></ion-icon>
+                <h3>Web Design</h3>
+                <p>Developing Websites Needs To CSS For Design!!<br>CSS Is Really Important.</p>
+            </div>
+            <div class="card">
+                <div class="bgcard"></div>
+                <ion-icon name="logo-javascript" class="js"></ion-icon>
+                <h3>Web Applications</h3>
+                <p>For Make Web Application You Need To JavaScript!!<br>JavaScript Is Important For Web Applications.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <h1 class="title">Skills</h1>
+        <div class="content">
+            <div class="skills">
+                <div class="skill">
+                    <span class="htmlbar">HTML</span><br>
+                    <div class="bar"></div>
+                    <div class="activebar" id="bar1"></div>
+                </div>
+                <div class="skill">
+                    <span class="cssbar">CSS</span><br>
+                    <div class="bar"></div>
+                    <div class="activebar" id="bar2"></div>
+                </div>
+                <div class="skill">
+                    <span class="jsbar">JavaScript</span><br>
+                    <div class="bar"></div>
+                    <div class="activebar" id="bar3"></div>
+                </div>
+            </div>
+            <div class="para">
+                <h3>My Skills!!</h3>
+                <p>My Html Is Perfect From My Point Of View.<br>And My Css Is Good But Not Perfect.<br>My JavaScript Is
+                    normal.</p>
+            </div>
+        </div>
+        <h1 class="bgskill">Skills</h1>
+        <div class="circle4"></div>
+        <div class="circle5"></div>
+    </section>
+    <section id="contact">
+        <h1 class="title">Contact</h1>
+        <div class="cards">
+            <div class="card">
+                <ion-icon name="call-outline"></ion-icon>
+                <h3>Phone</h3>
+                <p>8171833977</p>
+            </div>
+            <div class="card">
+                <ion-icon name="mail-outline"></ion-icon>
+                <h3>Email</h3>
+                <p style="font-size: small;">gauravsahu8859@gmail.com</p>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https: // unpkg .com / ionicons @ 5.5.2 / dist / ionicons / ionicons.js"></script>
+</body>
+
 </html>
