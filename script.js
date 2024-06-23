@@ -15,14 +15,11 @@ menubtn.onclick = function() {
     menubtn.classList.remove('uil-times')
   }
 }
-let inc=()=>{
+function inc(){
   console.log("hello");
-  let incbar1=document.getElementById();
-  let incbar2=document.getElementById();
-  let incbar3=document.getElementById();
-  
-
-
+  let incbar1=document.getElementById("bar1").style.backgroundColor="red";
+  let incbar2=document.getElementById("bar2").style.backgroundColor="red";
+  let incbar3=document.getElementById("bar3").style.backgroundColor="red";
 }
 window.addEventListener('scroll', () => {
   if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
