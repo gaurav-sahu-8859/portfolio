@@ -607,7 +607,7 @@ header ul li a:hover {
     outline: none;
     background-color: #1f67db;
     width: 130px;
-    #42445A border-radius: 15px;
+    border-radius: 15px;
     padding: 15px 20px;
     margin-top: 20px;
     cursor: pointer;
@@ -767,7 +767,7 @@ header ul li a:hover {
     height: 25px;
     width: 25px;
     background-color: #2d158c;
-    border-radius: 50%;
-  }
+    border-radius: 50%;
+  }
 
 }
