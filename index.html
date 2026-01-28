@@ -1,693 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Youssef - Full Stack MERN Developer Portfolio">
-    <meta name="keywords" content="MERN developer, full stack developer, web development, React, Node.js, MongoDB">
-    <title>Youssef | Full Stack MERN Developer</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Roboto+Mono:wght@300;400;500&display=swap" rel="stylesheet">
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Gaurav | Full Stack MERN Developer</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
 </head>
 <body>
-    <!-- Scroll to top button -->
-    <button class="scroll-to-top" aria-label="Scroll to top">
-        <i class="uil uil-angle-up"></i>
-    </button>
 
-    <!-- Header with Navigation -->
-    <header>
-        <div class="container header-container">
-            <h1 class="logo">YA</h1>
-            <nav class="nav">
-                <ul class="nav-menu">
-                    <li><a href="#home" class="nav-link active">Home</a></li>
-                    <li><a href="#about" class="nav-link">About</a></li>
-                    <li><a href="#skills" class="nav-link">Skills</a></li>
-                    <li><a href="#projects" class="nav-link">Projects</a></li>
-                    <li><a href="#experience" class="nav-link">Experience</a></li>
-                    <li><a href="#contact" class="nav-link">Contact</a></li>
-                    <li class="dark-mode-toggle">
-                        <button id="darkModeToggle" aria-label="Toggle dark mode">
-                            <i class="uil uil-moon"></i>
-                            <i class="uil uil-sun"></i>
-                        </button>
-                    </li>
-                </ul>
-                <button class="hamburger" aria-label="Toggle menu">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </button>
-            </nav>
-        </div>
-    </header>
+<!-- Scroll Top -->
+<i class="uil uil-arrow-up up"></i>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="container hero-container">
-            <div class="hero-content">
-                <span class="hero-subtitle">Hello, I'm</span>
-                <h1 class="hero-title">Youssef Ahmed</h1>
-                <h2 class="hero-position">Full Stack MERN Developer</h2>
-                <p class="hero-description">
-                    I build exceptional digital experiences with the MERN stack. Specializing in creating robust, scalable web applications with clean architecture and modern UI/UX design.
-                </p>
-                <div class="hero-buttons">
-                    <a href="#projects" class="btn btn-primary">View My Work</a>
-                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
-                </div>
-                <div class="hero-stats">
-                    <div class="stat">
-                        <span class="stat-number">50+</span>
-                        <span class="stat-label">Projects Completed</span>
-                    </div>
-                    <div class="stat">
-                        <span class="stat-number">3+</span>
-                        <span class="stat-label">Years Experience</span>
-                    </div>
-                    <div class="stat">
-                        <span class="stat-number">20+</span>
-                        <span class="stat-label">Happy Clients</span>
-                    </div>
-                </div>
-            </div>
-            <div class="hero-image">
-                <div class="image-container">
-                    <img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80" alt="Youssef - Full Stack Developer">
-                    <div class="image-overlay">
-                        <div class="tech-stack">
-                            <span>MongoDB</span>
-                            <span>Express</span>
-                            <span>React</span>
-                            <span>Node.js</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="hero-shapes">
-            <div class="shape shape-1"></div>
-            <div class="shape shape-2"></div>
-            <div class="shape shape-3"></div>
-        </div>
-    </section>
+<!-- HEADER -->
+<header>
+  <h2>Portfolio</h2>
 
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">About Me</h2>
-                <div class="section-divider"></div>
-            </div>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>
-                        I'm a passionate Full Stack Developer with over 3 years of experience building web applications using the MERN stack. My journey in web development started when I discovered how code could bring ideas to life, and I've been obsessed with creating elegant solutions ever since.
-                    </p>
-                    <p>
-                        I specialize in developing robust backend systems with Node.js and Express, creating intuitive user interfaces with React, and designing efficient database schemas with MongoDB. I'm committed to writing clean, maintainable code and implementing best practices in security, performance, and accessibility.
-                    </p>
-                    <p>
-                        When I'm not coding, you can find me contributing to open-source projects, learning about new technologies, or hiking in the mountains to recharge my creative batteries.
-                    </p>
-                    <div class="about-skills">
-                        <div class="skill-tag">JavaScript</div>
-                        <div class="skill-tag">TypeScript</div>
-                        <div class="skill-tag">React</div>
-                        <div class="skill-tag">Node.js</div>
-                        <div class="skill-tag">MongoDB</div>
-                        <div class="skill-tag">Express</div>
-                        <div class="skill-tag">Redux</div>
-                        <div class="skill-tag">REST APIs</div>
-                        <div class="skill-tag">GraphQL</div>
-                        <div class="skill-tag">AWS</div>
-                        <div class="skill-tag">Docker</div>
-                        <div class="skill-tag">CI/CD</div>
-                    </div>
-                    <a href="#contact" class="btn btn-primary">Let's Work Together</a>
-                </div>
-                <div class="about-image">
-                    <div class="image-container">
-                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80" alt="Youssef working on code">
-                    </div>
-                </div>
-            </div>
+  <ul id="navMenu">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li>
+      <div class="switch" id="darkToggle">
+        <div class="switchcircle">
+          <ion-icon name="moon-outline"></ion-icon>
         </div>
-    </section>
+      </div>
+    </li>
+  </ul>
 
-    <!-- Skills Section -->
-    <section id="skills" class="skills">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">My Skills</h2>
-                <div class="section-divider"></div>
-                <p class="section-subtitle">I craft full-stack solutions with modern technologies and best practices</p>
-            </div>
-            
-            <div class="skills-container">
-                <!-- Frontend Skills -->
-                <div class="skill-category">
-                    <div class="category-header">
-                        <i class="uil uil-brackets-curly"></i>
-                        <h3>Frontend Development</h3>
-                    </div>
-                    <div class="skill-items">
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">React</span>
-                                <span class="skill-level">Expert</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 95%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">JavaScript/TypeScript</span>
-                                <span class="skill-level">Expert</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 95%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">HTML5/CSS3</span>
-                                <span class="skill-level">Expert</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 98%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">Redux/Context API</span>
-                                <span class="skill-level">Advanced</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 90%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">Responsive Design</span>
-                                <span class="skill-level">Advanced</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 92%"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Backend Skills -->
-                <div class="skill-category">
-                    <div class="category-header">
-                        <i class="uil uil-server"></i>
-                        <h3>Backend Development</h3>
-                    </div>
-                    <div class="skill-items">
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">Node.js/Express</span>
-                                <span class="skill-level">Expert</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 93%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">RESTful APIs</span>
-                                <span class="skill-level">Expert</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 95%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">GraphQL</span>
-                                <span class="skill-level">Advanced</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 85%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">Authentication/Authorization</span>
-                                <span class="skill-level">Advanced</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 90%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">WebSockets</span>
-                                <span class="skill-level">Intermediate</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 80%"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Database & DevOps -->
-                <div class="skill-category">
-                    <div class="category-header">
-                        <i class="uil uil-database"></i>
-                        <h3>Databases & DevOps</h3>
-                    </div>
-                    <div class="skill-items">
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">MongoDB</span>
-                                <span class="skill-level">Expert</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 95%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">Mongoose</span>
-                                <span class="skill-level">Expert</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 93%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">SQL (PostgreSQL)</span>
-                                <span class="skill-level">Intermediate</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 75%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">Docker</span>
-                                <span class="skill-level">Advanced</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 85%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">AWS/Cloud Deployment</span>
-                                <span class="skill-level">Advanced</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 88%"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+  <i class="uil uil-bars menu" id="menuBtn"></i>
+</header>
+
+<!-- HOME -->
+<section id="home">
+  <div class="left">
+    <span>Hello, I'm</span>
+    <h3>Gaurav</h3>
+    <span class="des">Full Stack MERN Developer</span>
+    <p>
+      I build scalable web applications using
+      MongoDB, Express, React & Node.js.
+    </p>
+    <button><a href="#skills">View My Skills</a></button>
+  </div>
+
+  <div class="right">
+    <img src="gaurav.jpeg" alt="Gaurav Portfolio">
+  </div>
+
+  <h1 class="bgtitle">PORTFOLIO</h1>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <h1 class="title">Services</h1>
+
+  <div class="cards">
+    <div class="card">
+      <ion-icon name="code-slash-outline" class="html"></ion-icon>
+      <h3>Frontend Development</h3>
+      <p>HTML, CSS, JavaScript, React</p>
+    </div>
+
+    <div class="card">
+      <ion-icon name="server-outline" class="css"></ion-icon>
+      <h3>Backend Development</h3>
+      <p>Node.js, Express, REST APIs</p>
+    </div>
+
+    <div class="card">
+      <ion-icon name="layers-outline" class="js"></ion-icon>
+      <h3>Full Stack MERN</h3>
+      <p>MongoDB, Express, React, Node</p>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <h1 class="title">Skills</h1>
+
+  <div class="content">
+    <div class="skills">
+      <div class="skill">
+        <span>HTML</span>
+        <div class="bar">
+          <div class="activebar" data-width="95%"></div>
         </div>
-    </section>
+      </div>
 
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Featured Projects</h2>
-                <div class="section-divider"></div>
-                <p class="section-subtitle">Here are some of my recent full-stack applications built with the MERN stack</p>
-            </div>
-            
-            <div class="projects-grid">
-                <!-- Project 1 -->
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="https://images.unsplash.com/photo-1551650975-87de45978306?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80" alt="E-commerce Platform">
-                        <div class="project-overlay">
-                            <a href="#" class="project-link"><i class="uil uil-link"></i></a>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-tags">
-                            <span class="tag">React</span>
-                            <span class="tag">Node.js</span>
-                            <span class="tag">MongoDB</span>
-                            <span class="tag">Stripe API</span>
-                        </div>
-                        <h3 class="project-title">E-commerce Platform</h3>
-                        <p class="project-description">
-                            A full-featured e-commerce platform with product management, user authentication, payment processing with Stripe, and real-time order tracking.
-                        </p>
-                        <div class="project-footer">
-                            <div class="project-tech">
-                                <i class="fab fa-react"></i>
-                                <i class="fab fa-node-js"></i>
-                                <i class="fas fa-database"></i>
-                            </div>
-                            <div class="project-links">
-                                <a href="#" class="project-btn"><i class="uil uil-github"></i></a>
-                                <a href="#" class="project-btn"><i class="uil uil-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Project 2 -->
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80" alt="Task Management App">
-                        <div class="project-overlay">
-                            <a href="#" class="project-link"><i class="uil uil-link"></i></a>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-tags">
-                            <span class="tag">React</span>
-                            <span class="tag">Express</span>
-                            <span class="tag">Socket.io</span>
-                            <span class="tag">JWT</span>
-                        </div>
-                        <h3 class="project-title">TaskFlow - Team Collaboration</h3>
-                        <p class="project-description">
-                            Real-time task management application with collaborative features, notifications, file sharing, and team dashboards using WebSockets.
-                        </p>
-                        <div class="project-footer">
-                            <div class="project-tech">
-                                <i class="fab fa-react"></i>
-                                <i class="fab fa-node-js"></i>
-                                <i class="fas fa-bolt"></i>
-                            </div>
-                            <div class="project-links">
-                                <a href="#" class="project-btn"><i class="uil uil-github"></i></a>
-                                <a href="#" class="project-btn"><i class="uil uil-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Project 3 -->
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80" alt="Fitness Tracker">
-                        <div class="project-overlay">
-                            <a href="#" class="project-link"><i class="uil uil-link"></i></a>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-tags">
-                            <span class="tag">React Native</span>
-                            <span class="tag">Node.js</span>
-                            <span class="tag">MongoDB Atlas</span>
-                            <span class="tag">Firebase</span>
-                        </div>
-                        <h3 class="project-title">FitTrack - Health & Fitness App</h3>
-                        <p class="project-description">
-                            Mobile-first fitness tracking application with workout planning, nutrition logging, progress analytics, and social sharing features.
-                        </p>
-                        <div class="project-footer">
-                            <div class="project-tech">
-                                <i class="fab fa-react"></i>
-                                <i class="fab fa-node-js"></i>
-                                <i class="fas fa-chart-line"></i>
-                            </div>
-                            <div class="project-links">
-                                <a href="#" class="project-btn"><i class="uil uil-github"></i></a>
-                                <a href="#" class="project-btn"><i class="uil uil-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Project 4 -->
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80" alt="Real Estate Platform">
-                        <div class="project-overlay">
-                            <a href="#" class="project-link"><i class="uil uil-link"></i></a>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-tags">
-                            <span class="tag">Next.js</span>
-                            <span class="tag">TypeScript</span>
-                            <span class="tag">MongoDB</span>
-                            <span class="tag">Mapbox API</span>
-                        </div>
-                        <h3 class="project-title">HomeFinder - Real Estate Platform</h3>
-                        <p class="project-description">
-                            Next.js real estate platform with server-side rendering, property search with filters, map integration, virtual tours, and agent management system.
-                        </p>
-                        <div class="project-footer">
-                            <div class="project-tech">
-                                <i class="fab fa-react"></i>
-                                <i class="fab fa-node-js"></i>
-                                <i class="fas fa-map-marked-alt"></i>
-                            </div>
-                            <div class="project-links">
-                                <a href="#" class="project-btn"><i class="uil uil-github"></i></a>
-                                <a href="#" class="project-btn"><i class="uil uil-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="projects-footer">
-                <a href="#" class="btn btn-secondary">View All Projects</a>
-            </div>
+      <div class="skill">
+        <span>CSS</span>
+        <div class="bar">
+          <div class="activebar" data-width="90%"></div>
         </div>
-    </section>
+      </div>
 
-    <!-- Experience Section -->
-    <section id="experience" class="experience">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Work Experience</h2>
-                <div class="section-divider"></div>
-                <p class="section-subtitle">My professional journey and key achievements</p>
-            </div>
-            
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <div class="timeline-date">2023 - Present</div>
-                        <h3 class="timeline-title">Senior Full Stack Developer</h3>
-                        <div class="timeline-company">TechNova Solutions</div>
-                        <p class="timeline-description">
-                            Lead development of enterprise web applications using MERN stack. Implemented CI/CD pipelines, optimized database queries resulting in 40% performance improvement, and mentored junior developers.
-                        </p>
-                        <div class="timeline-achievements">
-                            <div class="achievement">
-                                <i class="uil uil-check-circle"></i>
-                                <span>Reduced API response time by 65% through query optimization and caching</span>
-                            </div>
-                            <div class="achievement">
-                                <i class="uil uil-check-circle"></i>
-                                <span>Implemented JWT authentication with role-based access control</span>
-                            </div>
-                            <div class="achievement">
-                                <i class="uil uil-check-circle"></i>
-                                <span>Designed and deployed 3 major client applications with 99.9% uptime</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <div class="timeline-date">2021 - 2023</div>
-                        <h3 class="timeline-title">Full Stack Developer</h3>
-                        <div class="timeline-company">Digital Innovations Inc.</div>
-                        <p class="timeline-description">
-                            Developed and maintained multiple client projects using React, Node.js, and MongoDB. Created RESTful APIs, implemented real-time features with WebSockets, and integrated third-party services.
-                        </p>
-                        <div class="timeline-achievements">
-                            <div class="achievement">
-                                <i class="uil uil-check-circle"></i>
-                                <span>Built a real-time analytics dashboard serving 50K+ monthly users</span>
-                            </div>
-                            <div class="achievement">
-                                <i class="uil uil-check-circle"></i>
-                                <span>Integrated payment gateways (Stripe, PayPal) for e-commerce clients</span>
-                            </div>
-                            <div class="achievement">
-                                <i class="uil uil-check-circle"></i>
-                                <span>Reduced bug reports by 35% through comprehensive testing strategies</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <div class="timeline-date">2020 - 2021</div>
-                        <h3 class="timeline-title">Frontend Developer</h3>
-                        <div class="timeline-company">WebCraft Studios</div>
-                        <p class="timeline-description">
-                            Created responsive user interfaces with React and modern CSS. Collaborated with designers to implement pixel-perfect designs and optimized frontend performance.
-                        </p>
-                        <div class="timeline-achievements">
-                            <div class="achievement">
-                                <i class="uil uil-check-circle"></i>
-                                <span>Improved page load speed by 45% through code splitting and lazy loading</span>
-                            </div>
-                            <div class="achievement">
-                                <i class="uil uil-check-circle"></i>
-                                <span>Implemented accessible UI components meeting WCAG 2.1 standards</span>
-                            </div>
-                            <div class="achievement">
-                                <i class="uil uil-check-circle"></i>
-                                <span>Developed reusable component library used across 15+ projects</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="skill">
+        <span>JavaScript</span>
+        <div class="bar">
+          <div class="activebar" data-width="85%"></div>
         </div>
-    </section>
+      </div>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Get In Touch</h2>
-                <div class="section-divider"></div>
-                <p class="section-subtitle">Have a project in mind? Let's build something amazing together</p>
-            </div>
-            
-            <div class="contact-container">
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="uil uil-phone"></i>
-                        </div>
-                        <div class="contact-details">
-                            <h3>Phone</h3>
-                            <p>+91 81718 33977</p>
-                        </div>
-                    </div>
-                    
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="uil uil-envelope"></i>
-                        </div>
-                        <div class="contact-details">
-                            <h3>Email</h3>
-                            <p>gauravsahu8859@gmail.com</p>
-                        </div>
-                    </div>
-                    
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="uil uil-map-marker"></i>
-                        </div>
-                        <div class="contact-details">
-                            <h3>Location</h3>
-                            <p>Mumbai, India</p>
-                        </div>
-                    </div>
-                    
-                    <div class="contact-social">
-                        <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
-                        <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-                
-                <div class="contact-form">
-                    <form id="inquiryForm">
-                        <div class="form-group">
-                            <label for="name">Full Name</label>
-                            <input type="text" id="name" name="name" required>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="email">Email Address</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="subject">Subject</label>
-                            <input type="text" id="subject" name="subject" required>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea id="message" name="message" rows="6" required></textarea>
-                        </div>
-                        
-                        <button type="submit" class="btn btn-primary btn-block">Send Message</button>
-                    </form>
-                </div>
-            </div>
+      <div class="skill">
+        <span>React</span>
+        <div class="bar">
+          <div class="activebar" data-width="80%"></div>
         </div>
-    </section>
+      </div>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-logo">
-                    <h2>YA</h2>
-                    <p>Building exceptional digital experiences with the MERN stack</p>
-                </div>
-                
-                <div class="footer-links">
-                    <h3>Quick Links</h3>
-                    <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#skills">Skills</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footer-links">
-                    <h3>Services</h3>
-                    <ul>
-                        <li><a href="#">MERN Stack Development</a></li>
-                        <li><a href="#">RESTful API Design</a></li>
-                        <li><a href="#">Database Architecture</a></li>
-                        <li><a href="#">Performance Optimization</a></li>
-                        <li><a href="#">DevOps & Deployment</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footer-newsletter">
-                    <h3>Newsletter</h3>
-                    <p>Subscribe to get the latest tech insights and project updates</p>
-                    <form class="newsletter-form">
-                        <input type="email" placeholder="Your email address" required>
-                        <button type="submit"><i class="uil uil-arrow-right"></i></button>
-                    </form>
-                </div>
-            </div>
-            
-            <div class="footer-bottom">
-                <p>&copy; 2026 Youssef Ahmed. All rights reserved.</p>
-                <div class="footer-credits">
-                    <span>Designed & Developed with ❤️ by Youssef</span>
-                </div>
-            </div>
+      <div class="skill">
+        <span>Node / MongoDB</span>
+        <div class="bar">
+          <div class="activebar" data-width="75%"></div>
         </div>
-    </footer>
+      </div>
+    </div>
 
-    <script src="script.js"></script>
+    <div class="para">
+      <h3>Why Hire Me?</h3>
+      <p>
+        I am a Full Stack MERN Developer who builds
+        fast, scalable and responsive web apps
+        with clean code and modern UI.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <h1 class="title">Contact</h1>
+
+  <div class="cards">
+    <div class="card">
+      <ion-icon name="call-outline"></ion-icon>
+      <h3>Phone</h3>
+      <p>8171833977</p>
+    </div>
+
+    <div class="card">
+      <ion-icon name="mail-outline"></ion-icon>
+      <h3>Email</h3>
+      <p>gauravsahu8859@gmail.com</p>
+    </div>
+  </div>
+</section>
+
+<!-- JS -->
+<script src="script.js"></script>
+
+<!-- Ionicons -->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
 </body>
 </html>
